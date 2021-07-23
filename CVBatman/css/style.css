@@ -1,0 +1,85 @@
+/* ------- Estilos generales CV Batman ------- */
+
+* {
+  font-family: "Times New Roman", sans-serif, Verdana;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+/* ------- Header ------- */
+
+header {
+  text-align: center;
+  background-color: #E5E5E5;
+}
+#img-header {
+  padding: 15px;
+}
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  padding: 2px 4px;
+}
+
+h1,
+h2 {
+  color: #005677;
+  background-color: #C4C4C4;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 8px;
+}
+
+/*------- Main ------- */
+main {
+  padding: 50px 0px 0px 0px;
+}
+.informacion {
+  margin: 60px auto;
+  max-width: 70%;
+}
+
+h2 {
+  font-size: 20px;
+  padding: 2px 5px;
+}
+span {
+  font-weight: 700;
+}
+.datos-personales span {
+  font-style: italic;
+}
+dl {
+  margin-left: 35px;
+}
+dd {
+  margin-left: 90px;
+}
+.info ul,
+.info dl {
+  padding: 15px;
+}
+.datos-personales ul li {
+  margin: 5px 0px 0px 30px;
+}
+dl dt {
+  margin: 10px 0px 0px 0px;
+}
+/*------- Footer -------*/
+footer {
+  line-height: 40px;
+  background-color: #005677;
+  color: #fff;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #fff;
+  margin: 0px 0px 0px 5px;
+}
