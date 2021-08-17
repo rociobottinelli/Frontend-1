@@ -1,0 +1,26 @@
+/*------Estilos generales------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  font-family: "Roboto", sans-serif, "Times New Roman";
+}
+
+.prueba img, h1 {
+  display: inline-block;
+}
+
+/*---Header---*/
+.header-ofertas-idioma {
+  background-color: #222222;
+}
+
+.header-nav {
+  background-color: #f0a83e;
+}
+
+.banner {
+  background: wheat url("../img/banner.png") no-repeat center;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+}

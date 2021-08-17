@@ -1,0 +1,71 @@
+/*------Estilos generales------*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif, 'Times New Roman';
+    margin: 0; 
+    list-style: none;   
+}
+footer {
+    height: 1000px;
+}
+
+/*------Header------*/
+#banner {
+    width: 100%;
+    background-color: wheat;
+    background-image: url("../img/background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -730px;
+    background-attachment: fixed;
+    height: 380px;
+    text-align: center;
+}
+#banner img {
+    margin-top: 70px;
+    border-radius: 2%;
+    border: 2px solid black;
+}
+h1 {
+    letter-spacing: 5px; 
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700px;
+}
+
+/*----MAIN----*/
+
+main {
+    background-color: rgba(220, 223, 224, 0.6);
+    text-align:center;
+    padding: 40px;
+}
+
+.datos-personales {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.info h2 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    background-color:#F6D6D7;
+    opacity: 0.3;
+    padding: 30px;
+}
+
+.formacion-academica{
+    margin-top: 100px;
+}
+
+
+
+/*-----Footer------*/
+
+footer{
+    height: 200px;
+    background-color:#F6D6D7;
+    opacity: 0.4;
+}

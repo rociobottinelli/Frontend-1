@@ -1,0 +1,95 @@
+* {
+  font-family: "Times New Roman", sans-serif, Verdana;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------- Header ------- */
+header {
+  text-align: center;
+  background-color: #E5E5E5;
+}
+
+header #img-header {
+  padding: 15px;
+}
+
+header h1 {
+  font-size: 35px;
+}
+
+header h2 {
+  padding: 2px 4px;
+}
+
+header h1, header h2 {
+  color: #005677;
+  background-color: #C4C4C4;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 8px;
+}
+
+/*------- Main ------- */
+main {
+  padding: 50px 0px 0px 0px;
+}
+
+main .informacion {
+  margin: 60px auto;
+  max-width: 70%;
+}
+
+main h2 {
+  font-size: 20px;
+  padding: 2px 5px;
+}
+
+main span {
+  font-weight: 700;
+}
+
+main .datos-personales span {
+  font-style: italic;
+}
+
+main .datos-personales ul li {
+  margin: 5px 0px 0px 30px;
+}
+
+main dl {
+  margin-left: 35px;
+}
+
+main dd {
+  margin-left: 90px;
+}
+
+main .info ul,
+main .info dl {
+  padding: 15px;
+}
+
+main .info ul dt,
+main .info dl dt {
+  margin: 10px 0px 0px 0px;
+}
+
+/*------- Footer -------*/
+footer {
+  line-height: 40px;
+  background-color: #005677;
+  color: #fff;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer a {
+  color: #fff;
+  margin: 0px 0px 0px 5px;
+}
+/*# sourceMappingURL=style.css.map */
